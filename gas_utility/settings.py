@@ -116,11 +116,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = "/tatic/"
-STATICFILES_DIRS = [
-    BASE_DIR / 'static',  # General static directory
-    BASE_DIR / 'customer_service' / 'static',  # Static files for customer_service app
-]
+STATIC_URL = "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
