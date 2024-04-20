@@ -1,0 +1,17 @@
+{% load static %}  <!-- Load the static tag to access static files -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Gas Utility{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">  <!-- Correct usage of static tag -->
+</head>
+<body>
+    <h1>Welcome to Gas Utility Service</h1>
+
+    {% block content %}
+    <!-- Content for child templates will be inserted here -->
+    {% endblock %}
+</body>
+</html>

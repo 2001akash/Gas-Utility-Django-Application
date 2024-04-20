@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h2>Track Your Service Requests</h2>
+<ul>
+    {% for request in requests %}
+    <li>
+        <strong>Request Type:</strong> {{ request.request_type }}<br>
+        <strong>Description:</strong> {{ request.description }}<br>
+        <strong>Status:</strong> {{ request.status }}<br>
+        <strong>Created At:</strong> {{ request.created_at }}<br>
+        <strong>Updated At:</strong> {{ request.updated_at }}<br>
+        <strong>Resolved At:</strong> {{ request.resolved_at }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
