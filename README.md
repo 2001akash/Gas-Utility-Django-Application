@@ -19,4 +19,8 @@ This Django application is designed to provide consumer services for gas utiliti
    git clone https://github.com/your-username/gas-utility-django.git
    cd gas-utility-django
 
+## Run the following command
+python manage.py runserver
+ Then login the admin panel to acess it
+
 ## Video Link:https://www.loom.com/share/3a5cc5c0d2df496cb9fca95c0c361f40?sid=c6c2e3d6-5a1a-442e-87e9-098eec14dd89
